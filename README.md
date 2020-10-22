@@ -1,4 +1,4 @@
-## An Analysis of SVD for Deep Rotation Estimation
+# An Analysis of SVD for Deep Rotation Estimation
 
 This repository will contain code for experiments in an upcoming NeurIPS 2020 paper:
 
@@ -56,9 +56,17 @@ def symmetric_orthogonalization(x):
   return r
 ```
 
+# Experiments
+
+## Inverse Kinematics
+This is the experiment reported in Section 4.4.2 and Table 6 of the paper. We have cloned the experimental code rele 
+
+The experiment is presented originally in [Zhou et al, CVPR19](https://arxiv.org/abs/1812.07035), and the authors' code can be found [here](https://github.com/papagina/RotationContinuity/tree/master/Inverse_Kinematics). \
+**The few changes required to run the training and eval with SVD orthogonalization are available here:** \
+[Edits to IK experiment for SVD orthogonalization](https://github.com/amakadia/RotationContinuity)
 
 
-### Citation
+# Citation
 
 ```
 @inproceedings{levinson20neurips,
