@@ -59,12 +59,18 @@ def symmetric_orthogonalization(x):
 # Experiments
 
 ## Inverse Kinematics
-This is the experiment reported in Section 4.4.2 and Table 6 of the paper. We have cloned the experimental code rele 
+This is the experiment reported in Section 4.4.2 and Table 6 of the paper.
 
-The experiment is presented originally in [Zhou et al, CVPR19](https://arxiv.org/abs/1812.07035), and the authors' code can be found [here](https://github.com/papagina/RotationContinuity/tree/master/Inverse_Kinematics). \
+The experiment is presented originally in [Yi Zhou et al, CVPR19](https://arxiv.org/abs/1812.07035), and the authors' code can be found [here](https://github.com/papagina/RotationContinuity/tree/master/Inverse_Kinematics). \
 **The few changes required to run the training and eval with SVD orthogonalization are available here:** \
 [Edits to IK experiment for SVD orthogonalization](https://github.com/amakadia/RotationContinuity)
 
+## Single Image Depth prediction on KITTI
+This is the experiment reported in Section 4.4.3 of and Table 7 of the paper.
+
+The experiment is presented originally in [Tinghui Zhou et al, CVPR17](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/), and the author's code can be found [here](https://github.com/tinghuiz/SfMLearner). \
+**We modified the pose layer to replace the Euler angle representation with SVD orthogonalization. See the changes needed to run the model with SVD orthogonalization:** \
+[Replacing Euler angles with SVD orthogonalization in SfmLearner](https://github.com/amakadia/SfMLearner)
 
 # Citation
 
