@@ -9,6 +9,7 @@ To appear in the *34th Conference on Neural Information Processing Systems
 [arXiv](https://arxiv.org/abs/2006.14616)
 
 
+See the [**special_orthogonalization** repository under **google_research**](https://github.com/google-research/google-research/tree/master/special_orthogonalization) which hosts the experiments we wrote in TensorFlow.
 
 ### Sample Code
 Below is sample code to use SVD orthogonalization to generate 3D rotation
@@ -57,6 +58,10 @@ def symmetric_orthogonalization(x):
 ```
 
 # Experiments
+
+## TensorFlow experiments
+For the experiments which we (re)implemented in TensorFlow, the [code is available in a google_research package](https://github.com/google-research/google-research/tree/master/special_orthogonalization).
+
 
 ## Inverse Kinematics
 This is the experiment reported in Section 4.4.2 and Table 6 of the paper.
